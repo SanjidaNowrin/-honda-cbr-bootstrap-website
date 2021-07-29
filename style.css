@@ -1,0 +1,33 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* common styles or utilities*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header,footer{
+    background-color:#264653;
+    width: 100%;
+}
+.text-color{
+  color: #E0E0E0;
+}
+button{
+    background-color: #E76F51;
+}
+.grayscale{
+    filter: grayscale(100%);
+  }
+.happy-color{
+    color: #0A0826;
+}
+.color{
+    color: #E76F51;
+}
+.accordion-button:not(.collapsed) {
+    color: #202021;
+    background-color: #ffffff;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
